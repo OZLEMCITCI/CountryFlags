@@ -1,10 +1,14 @@
 
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyNavbar from "./myNavBar/MyNavbar";
+import Main from './main/Main'
 
 function App() {
   return (
     <div className="App">
-      <h1>hello react</h1>
+      <MyNavbar />
+      <Main/>
     </div>
   );
 }
